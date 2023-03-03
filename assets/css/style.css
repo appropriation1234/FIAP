@@ -1,0 +1,63 @@
+@import url(https://github.com/appropriation1234/FIAP/blob/main/yoru.gif?raw=true);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+    --text-primary: #FFF;
+    --font-heading: 'Poppins';
+    --fon-default: 'Montserrat';
+    --text-secundary: #000;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: var(--fon-default);
+    color: var(--text-primary);
+}
+
+header{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-image: url(/images/yoru.gif);
+    background-size: cover;
+    padding: 40rem;
+}
+h1 {
+    font-size: 2.3rem;
+}
+
+
+.button{
+    background: linear-gradient(90deg, #6A3093, #A044FF);
+    padding: 1rem 3rem;
+    border-radius: 6px;
+    color: #FFF;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+img.avatar{
+    border-radius: 50%;
+}
+
+.section-presentation{
+    display: flex;
+    color: var(--text-secundary);
+
+}
+.section-presentation div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
