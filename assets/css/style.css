@@ -27,28 +27,61 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
-    background-image: url(/images/yoru.gif);
+    gap: 2rem;
+    background-image: url(/images/giphy.gif);
+    width: 100%;
     background-size: cover;
-    padding: 40rem;
+    padding: 50rem;
 }
 h1 {
-    font-size: 2.3rem;
+    font-size: 3rem;
 }
 
 
 .button{
     background: linear-gradient(90deg, #6A3093, #A044FF);
     padding: 1rem 3rem;
-    border-radius: 6px;
+    border-radius: 7px;
     color: #FFF;
     font-size: 15px;
     text-decoration: none;
+    width: 250px;
+    text-align: center;
 }
+
+.button2{
+    background: linear-gradient(90deg, #933030, #933010);
+    padding: 1rem 3rem;
+    border-radius: 7px;
+    color: #FFF;
+    font-size: 15px;
+    text-decoration: none;
+    width: 50rem;
+    text-align: center;
+    margin-left: -900px;
+
+}
+
 
 img.avatar{
     border-radius: 50%;
+    margin-top: -980px;
+    margin-left: 70px;
+    
 }
+
+
+img.avatar2{
+    margin-top: 0px;
+    border-radius: 0%;
+    width: 100%;
+}
+
+
+.container img {
+    display: block;
+    margin-bottom: 20px;
+  }
 
 .section-presentation{
     display: flex;
