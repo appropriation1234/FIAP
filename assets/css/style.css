@@ -94,3 +94,38 @@ img.avatar2{
     align-items: flex-start;
     justify-content: space-around;
 }
+
+#section-budget{
+    display: flex;
+    height: 500px;
+    background-image: url();
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+
+#section-budget form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: start;
+    column-gap: 10px;
+    row-gap: 1rem;
+    background-color: #8c8c8c99;
+    backdrop-filter: blur(1px);
+    border-radius: 10px;
+    width: 80%;
+    padding: 2rem;
+}
+
+#section-budget form h3{
+    position: absolute;
+    top: -15%;
+    background-color: #6A3093;
+    padding: .3rem 2rem;
+    border-radius: 10%;
+}
+
+#section-budget form-output{
+    grid-column: 2;
+}
