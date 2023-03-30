@@ -5,7 +5,7 @@
      <meta http-equiv="X-UA-Compatible" content="IE-edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>EasyUp</title>
-     <link rel="stylesheet" href="./assets/css/style.css"
+     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
 
@@ -21,23 +21,48 @@
     </div>
         
     <div>
-
-        <a href="#" class="button2">ATENDIMENTO PERSONALIZADO</a>
-        <a href="#" class="button2">SEGURANÇA</a>
-        <a href="#" class="button2">ENTREGA RÁPIDA</a>
-        <a href="#" class="button2">MELHORES PREÇOS</a>
-
-    </div>
+        <a href="#" class="button2" onmouseover="mostrarTexto('texto2')" onmouseout="esconderTexto('texto2')">ATENDIMENTO PERSONALIZADO</a>
+        <div id="texto2" style="display:none;">Você dita a maneira que gostaria de ser atendido, tendo diversas opções para você escolher!.</div>
+              
+        <a href="#" class="button3" onmouseover="mostrarTexto('texto3')" onmouseout="esconderTexto('texto3')">SEGURANÇA</a>
+        <div id="texto3" style="display:none;">Loja 100% confiável, atinja o seu ELO ou receba seu dinheiro de volta!.</div>
+              
+        <a href="#" class="button4" onmouseover="mostrarTexto('texto4')" onmouseout="esconderTexto('texto4')">ENTREGA RÁPIDA</a>
+        <div id="texto4" style="display:none;">Escolha o prazo desejado e nossos boosters entregarão!.</div>
+              
+        <a href="#" class="button5" onmouseover="mostrarTexto('texto5')" onmouseout="esconderTexto('texto5')">MELHORES PREÇOS</a>
+        <div id="texto5" style="display:none;">Possuimos os preços mais justos do mercado e com ótima qualidade!</div>
+      </div>
+    
     </section>
 
     <section id="section-budget">
         <form action="#">
             <h3>Nos Contrate!</h3>
-            <label for=" Seu ELO Atual"></label>
-            <input type="image" id="ELO" placeholder="selecione o seu elo atual">
-            <label for="Qual seu ELO desejado?"></label>
-            <input type="image" id="ELO" placeholder="selecione seu elo desejado">
-            <label for="Duoboost">Vai ser DuoBoost?</label>
+            <label for="ELO">Seu ELO Atual</label>
+            <select name="Selecione seu ELO Atual:" id="ELOAtual">
+                <option value="Ferro">Ferro</option>
+                <option value="Bronze">Bronze</option>
+                <option value="Prata">Prata</option>
+                <option value="Ouro">Ouro</option>
+                <option value="Platina">Platina</option>
+                <option value="Diamante">Diamante</option>
+                <option value="Ascendente">Ascendente</option>
+                <option value="Imortal">Imortal</option>
+            </select>
+            <label for="ELO">Qual seu ELO desejado?</label>
+            <select name="Selecione seu ELO Desejado:" id="ELOFinal">
+                <option value="Ferro">Ferro</option>
+                <option value="Bronze">Bronze</option>
+                <option value="Prata">Prata</option>
+                <option value="Ouro">Ouro</option>
+                <option value="Platina">Platina</option>
+                <option value="Diamante">Diamante</option>
+                <option value="Ascendente">Ascendente</option>
+                <option value="Imortal">Imortal</option>
+                <option value="Radiante">Radiante</option>
+            </select>
+            <label for="Duoboost">Duo-Boost?</label>
             <div>
                 <input type="radio" id="Duoboost-sim" name="Duoboost">
                 <label for="Duoboost-sim">Sim, vai ser Duoboost</label>
@@ -46,10 +71,11 @@
             </div>
             <label for="prazo">Prazo</label>
             <input type="range" id="prazo" min="2" max="7">
-            <output id="preco">R$ 10,00</output>
+            <output id="preco">R$ 50,00</output>
         </form>
         <script src="./assets/css/js/script.js"></script>
 
     </section>
+
 </body>
 </html>

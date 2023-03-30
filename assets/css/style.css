@@ -59,8 +59,52 @@ h1 {
     width: 50rem;
     text-align: center;
     margin-left: -900px;
+    display: block;
 
 }
+
+.button3{
+    background: linear-gradient(90deg, #933030, #933010);
+    padding: 1rem 3rem;
+    border-radius: 7px;
+    color: #FFF;
+    font-size: 15px;
+    text-decoration: none;
+    width: 50rem;
+    text-align: center;
+    margin-left: -900px;
+    display: block;
+
+}
+
+.button4{
+    background: linear-gradient(90deg, #933030, #933010);
+    padding: 1rem 3rem;
+    border-radius: 7px;
+    color: #FFF;
+    font-size: 15px;
+    text-decoration: none;
+    width: 50rem;
+    text-align: center;
+    margin-left: -900px;
+    display: block;
+
+}
+
+.button5{
+    background: linear-gradient(90deg, #933030, #933010);
+    padding: 1rem 3rem;
+    border-radius: 7px;
+    color: #FFF;
+    font-size: 15px;
+    text-decoration: none;
+    width: 50rem;
+    text-align: center;
+    margin-left: -900px;
+    display: block;
+
+}
+
 
 
 img.avatar{
@@ -95,12 +139,14 @@ img.avatar2{
     justify-content: space-around;
 }
 
+
 #section-budget{
     display: flex;
     height: 500px;
     background-image: url();
     justify-content: center;
     align-items: center;
+    background-image: url('https://github.com/appropriation1234/FIAP/blob/main/Beginners-Guide-to-VALORANT.jpg?raw=true');
     background-size: cover;
 }
 
@@ -120,12 +166,20 @@ img.avatar2{
 
 #section-budget form h3{
     position: absolute;
-    top: -15%;
+    top: -10%;
     background-color: #6A3093;
     padding: .3rem 2rem;
-    border-radius: 10%;
+    border-radius: 15%;
 }
 
 #section-budget form-output{
     grid-column: 2;
 }
+
+.texto2 {
+    position: fixed;
+    top: 100%;
+    left: 0;
+    margin-left: -900px;
+    display: none;
+  }
