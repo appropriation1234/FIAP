@@ -22,6 +22,63 @@ body {
     color: var(--text-primary);
 }
 
+
+#hamburguer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 30px;
+    width: 3rem;
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    cursor: pointer;
+    z-index: 11;
+}
+
+#hamburguer .linha{
+    width: 100%;
+    height: .5rem;
+    background-color: white;
+    box-shadow: 0 .2rem .2rem #000;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    position: fixed;
+    right: -20rem;
+    text-decoration: none;
+    background-color: white;
+    height: 100vh;
+    width: 20rem;
+    z-index: 10;
+    transition: right 1s;
+}
+
+#Menu li{
+
+list-style: none;
+}
+
+#Menu a{
+    text-decoration: none;
+    color: var(--text-secundary);
+    font-size: 25px;
+}
+
+#Menu a:hover{
+    color: purple;
+}
+
+.menu-show{
+    right: 0;
+
+}
+
 header{
 
     display: flex;
@@ -162,7 +219,7 @@ img.avatar2{
     border-radius: 10px;
     width: 80%;
     padding: 2rem;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 #section-budget form h3{
@@ -178,9 +235,9 @@ img.avatar2{
 }
 
 #texto2 {
-    position: relative;
+    position: absolute;
     height: 70px;
-    top: -150px;
+    top: -120px;
     font-size: 20px;
     width: 500px;
     left: 0;
@@ -193,7 +250,7 @@ img.avatar2{
   #texto3 {
     position: relative;
     height: 70px;
-    top: -150px;
+    top: -120px;
     font-size: 20px;
     border-radius: 1%;
     width: 500px;
@@ -208,7 +265,7 @@ img.avatar2{
     position: relative;
     border-radius: 1%;
     height: 70px;
-    top: -150px;
+    top: -120px;
     font-size: 20px;
     width: 500px;
     left: 0;
@@ -222,7 +279,7 @@ img.avatar2{
     position: relative;
     height: 70px;
     border-radius: 1%;
-    top: -150px;
+    top: -120px;
     font-size: 20px;
     width: 500px;
     left: 0;
