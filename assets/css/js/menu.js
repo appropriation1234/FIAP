@@ -1,5 +1,3 @@
-document.querySelector("#hamburguer").addEventListener("click", 
-    function() { 
-        document.querySelector("#menu").classList.toggle("menu-show") 
-    }
+document.querySelector("#hamburguer").addEventListener("click",
+    () => document.querySelector("#Menu").classList.toggle("Menu-show")
 )
